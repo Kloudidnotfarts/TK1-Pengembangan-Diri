@@ -1,0 +1,1380 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruang Sahabat — Analisis Dampak Overthinking Mahasiswa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <a class="nav-brand" href="#">
+        <div class="dot">
+          <svg viewBox="0 0 16 16">
+            <path
+              d="M8 2a6 6 0 100 12A6 6 0 008 2zm0 1a5 5 0 110 10A5 5 0 018 3zm0 2a3 3 0 100 6 3 3 0 000-6z"
+            />
+          </svg>
+        </div>
+        Ruang Sahabat Mental Mahasiswa
+      </a>
+      <ul class="nav-links">
+        <li><a href="#tentang">Overthinking</a></li>
+        <li><a href="#dampak">Dampak</a></li>
+        <li><a href="#strategi">Strategi</a></li>
+        <li><a href="#komunitas">Komunitas</a></li>
+        <li><a href="#tools">Tools</a></li>
+      </ul>
+      <button
+        class="nav-cta"
+        onclick="
+          document.getElementById('quiz').scrollIntoView({ behavior: 'smooth' })
+        "
+      >
+        Cek Dirimu →
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" style="padding-top: 80px">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <div class="pulse"></div>
+          Literasi Kesehatan Mental Mahasiswa
+        </div>
+        <h1>
+          Dari <em>Overthinking</em><br />Menuju Penggerak<br />Komunitas
+          Positif
+        </h1>
+        <p class="hero-sub">
+          Analisis ilmiah dampak perilaku overthinking mahasiswa terhadap
+          kesehatan mental lingkungan sekitar — dan strategi transformasi
+          insecurity menjadi kekuatan kolektif.
+        </p>
+        <div class="hero-btns">
+          <a class="btn-primary" href="#tentang">Pelajari Sekarang</a>
+          <a class="btn-ghost" href="#quiz">Cek Level Overthinkingmu</a>
+        </div>
+        <div class="crisis-banner" style="max-width: 520px">
+          <span>⚠️</span>
+          <p>
+            <strong>Penting:</strong> Konten ini bersifat edukatif dan bukan
+            pengganti bantuan profesional. Jika kamu dalam kondisi krisis,
+            hubungi <strong>Into The Light Indonesia: 119 ext 8</strong>
+          </p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="brain-card">
+          <div class="card-label">Mahasiswa mengalami gejala overthinking</div>
+          <div class="card-stat">73%</div>
+          <div class="card-desc">
+            dari total populasi mahasiswa aktif di Indonesia
+          </div>
+          <div class="wave-bar" style="margin-top: 1.25rem">
+            <span></span><span></span><span></span><span></span><span></span
+            ><span></span><span></span>
+          </div>
+        </div>
+        <div class="hero-cards-row">
+          <div class="mini-card clay">
+            <div class="card-label">Dampak sosial</div>
+            <div class="mini-stat clay">58%</div>
+            <div class="card-desc" style="font-size: 0.8rem">
+              Menarik diri dari lingkungan
+            </div>
+          </div>
+          <div class="mini-card indigo">
+            <div class="card-label">Pulih dengan strategi</div>
+            <div class="mini-stat indigo">4×</div>
+            <div class="card-desc" style="font-size: 0.8rem">
+              Lebih cepat dengan dukungan komunitas
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APA ITU OVERTHINKING -->
+    <section id="tentang">
+      <div class="section-tag">Memahami Dasar</div>
+      <h2 class="section-title">
+        Apa itu Overthinking<br />dan Mengapa Mahasiswa Rentan?
+      </h2>
+      <p class="section-sub">
+        Overthinking bukan sekadar "terlalu banyak berpikir" — ini adalah pola
+        kognitif yang memerangkap pikiran dalam siklus negatif yang sulit
+        diputus.
+      </p>
+
+      <div class="what-grid">
+        <div class="definition-block">
+          <span class="quote-mark">"</span>
+          <h3>Definisi Ilmiah</h3>
+          <p>
+            Overthinking (<em>rumination</em>) adalah pola respons terhadap
+            distress yang melibatkan pemikiran berulang tentang perasaan
+            negatif, masalah, dan konsekuensinya — tanpa mengarah pada solusi
+            aktif.
+          </p>
+          <p style="margin-top: 1rem; font-size: 0.85rem; opacity: 0.8">
+            — Nolen-Hoeksema, 1991; American Psychological Association
+          </p>
+          <div
+            style="
+              margin-top: 1.5rem;
+              padding-top: 1.5rem;
+              border-top: 1px solid rgba(255, 255, 255, 0.2);
+            "
+          >
+            <div style="font-size: 0.8rem; opacity: 0.7; margin-bottom: 0.5rem">
+              FAKTOR RISIKO MAHASISWA
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem">
+              <div
+                style="
+                  background: rgba(255, 255, 255, 0.15);
+                  border-radius: 6px;
+                  padding: 0.5rem 0.75rem;
+                  font-size: 0.85rem;
+                "
+              >
+                🎓 Tekanan akademik tinggi
+              </div>
+              <div
+                style="
+                  background: rgba(255, 255, 255, 0.15);
+                  border-radius: 6px;
+                  padding: 0.5rem 0.75rem;
+                  font-size: 0.85rem;
+                "
+              >
+                🏠 Jauh dari keluarga & dukungan
+              </div>
+              <div
+                style="
+                  background: rgba(255, 255, 255, 0.15);
+                  border-radius: 6px;
+                  padding: 0.5rem 0.75rem;
+                  font-size: 0.85rem;
+                "
+              >
+                💼 Ketidakpastian masa depan
+              </div>
+              <div
+                style="
+                  background: rgba(255, 255, 255, 0.15);
+                  border-radius: 6px;
+                  padding: 0.5rem 0.75rem;
+                  font-size: 0.85rem;
+                "
+              >
+                📱 Perbandingan sosial media
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="signs-list">
+          <div
+            style="
+              font-size: 0.8rem;
+              letter-spacing: 0.08em;
+              text-transform: uppercase;
+              color: var(--muted);
+              margin-bottom: 0.5rem;
+            "
+          >
+            Tanda-Tanda Overthinking
+          </div>
+          <div class="sign-item">
+            <div class="sign-icon sage">🌀</div>
+            <div class="sign-text">
+              <h4>Loop Pikiran Tanpa Henti</h4>
+              <p>
+                Pikiran yang sama terus berulang meski sudah berusaha dialihkan.
+                Sering terjadi sebelum tidur atau saat sendiri.
+              </p>
+            </div>
+          </div>
+          <div class="sign-item">
+            <div class="sign-icon clay">😰</div>
+            <div class="sign-text">
+              <h4>Analisis Berlebihan</h4>
+              <p>
+                Menganalisis setiap kemungkinan terburuk dari satu situasi.
+                "Bagaimana kalau..." yang tidak berujung.
+              </p>
+            </div>
+          </div>
+          <div class="sign-item">
+            <div class="sign-icon indigo">⏳</div>
+            <div class="sign-text">
+              <h4>Kesulitan Memutuskan</h4>
+              <p>
+                Takut membuat keputusan karena terlalu banyak mempertimbangkan
+                konsekuensi negatif.
+              </p>
+            </div>
+          </div>
+          <div class="sign-item">
+            <div class="sign-icon sage">💤</div>
+            <div class="sign-text">
+              <h4>Gangguan Tidur & Fisik</h4>
+              <p>
+                Insomnia, sakit kepala, kelelahan kronis akibat otak tidak
+                pernah benar-benar beristirahat.
+              </p>
+            </div>
+          </div>
+          <div class="sign-item">
+            <div class="sign-icon clay">🔍</div>
+            <div class="sign-text">
+              <h4>Menghindari Realita</h4>
+              <p>
+                Menunda tindakan karena sibuk berpikir. Prokrastinasi sebagai
+                mekanisme menghindari ketidakpastian.
+              </p>
+            </div>
+          </div>
+          <div class="sign-item">
+            <div class="sign-icon indigo">🪞</div>
+            <div class="sign-text">
+              <h4>Insecurity & Self-Doubt</h4>
+              <p>
+                Selalu mempertanyakan kemampuan diri, membandingkan diri dengan
+                orang lain secara destruktif.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DAMPAK -->
+    <section id="dampak" class="dampak-section">
+      <div class="section-tag">Analisis Dampak</div>
+      <h2 class="section-title">
+        Dampak Overthinking terhadap<br />Kesehatan Mental & Lingkungan
+      </h2>
+      <p class="section-sub">
+        Overthinking tidak hanya merusak kesehatan mental individu — ia
+        menciptakan efek domino yang mempengaruhi kualitas relasi dan lingkungan
+        sosial mahasiswa.
+      </p>
+
+      <div class="dampak-grid">
+        <div class="dampak-card">
+          <div class="dampak-icon self">🧠</div>
+          <h3>Dampak pada Diri Sendiri</h3>
+          <ul class="dampak-list">
+            <li>
+              Meningkatnya gejala depresi dan kecemasan (2-3× lebih tinggi)
+            </li>
+            <li>Penurunan kemampuan konsentrasi dan memori kerja</li>
+            <li>Erosi kepercayaan diri secara bertahap</li>
+            <li>Kelelahan emosional kronis</li>
+            <li>Gangguan pola makan dan tidur</li>
+            <li>Penurunan motivasi akademik dan personal</li>
+          </ul>
+        </div>
+        <div class="dampak-card">
+          <div class="dampak-icon social">👥</div>
+          <h3>Dampak pada Lingkungan Sosial</h3>
+          <ul class="dampak-list">
+            <li>Menularkan energi negatif ke lingkungan sekitar</li>
+            <li>Menciptakan atmosfer anxiety dalam kelompok belajar</li>
+            <li>Menghambat komunikasi yang sehat dan terbuka</li>
+            <li>Memperkuat budaya perbandingan sosial</li>
+            <li>Menurunkan produktivitas kolektif kelompok</li>
+            <li>Konflik relasi akibat misinterpretasi</li>
+          </ul>
+        </div>
+        <div class="dampak-card">
+          <div class="dampak-icon academic">📚</div>
+          <h3>Dampak Akademik & Karir</h3>
+          <ul class="dampak-list">
+            <li>
+              IPK rata-rata turun 0.3-0.7 poin pada mahasiswa dengan
+              overthinking berat
+            </li>
+            <li>Peningkatan angka putus kuliah</li>
+            <li>Penghindaran peluang karena takut gagal</li>
+            <li>Menghambat pengembangan potensi kepemimpinan</li>
+            <li>Kesulitan dalam presentasi dan ekspresi diri</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        style="
+          margin-top: 2rem;
+          background: white;
+          border-radius: var(--radius);
+          padding: 2rem;
+          border: 1px solid var(--line);
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 1.5rem;
+          text-align: center;
+        "
+      >
+        <div>
+          <div
+            style="
+              font-family: &quot;Playfair Display&quot;, serif;
+              font-size: 2.2rem;
+              font-weight: 700;
+              color: var(--clay);
+            "
+          >
+            73%
+          </div>
+          <div style="font-size: 0.8rem; color: var(--muted); margin-top: 4px">
+            Mahasiswa Indonesia alami overthinking signifikan
+          </div>
+        </div>
+        <div>
+          <div
+            style="
+              font-family: &quot;Playfair Display&quot;, serif;
+              font-size: 2.2rem;
+              font-weight: 700;
+              color: var(--sage);
+            "
+          >
+            58%
+          </div>
+          <div style="font-size: 0.8rem; color: var(--muted); margin-top: 4px">
+            Menarik diri dari interaksi sosial
+          </div>
+        </div>
+        <div>
+          <div
+            style="
+              font-family: &quot;Playfair Display&quot;, serif;
+              font-size: 2.2rem;
+              font-weight: 700;
+              color: var(--indigo);
+            "
+          >
+            2.5×
+          </div>
+          <div style="font-size: 0.8rem; color: var(--muted); margin-top: 4px">
+            Lebih rentan terhadap depresi klinis
+          </div>
+        </div>
+        <div>
+          <div
+            style="
+              font-family: &quot;Playfair Display&quot;, serif;
+              font-size: 2.2rem;
+              font-weight: 700;
+              color: var(--sage);
+            "
+          >
+            1 dari 3
+          </div>
+          <div style="font-size: 0.8rem; color: var(--muted); margin-top: 4px">
+            Teman ikut terpengaruh mood negatifnya
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSECURITY FRAMEWORK -->
+    <section id="insecurity" class="framework-section">
+      <div class="section-tag">Akar Masalah</div>
+      <h2 class="section-title">
+        Memahami Siklus<br />Insecurity → Overthinking
+      </h2>
+      <p class="section-sub">
+        Insecurity adalah bahan bakar utama overthinking. Memahami siklus ini
+        adalah langkah pertama memutusnya.
+      </p>
+
+      <div class="framework-grid">
+        <div class="cycle-visual">
+          <div class="cycle-svg-wrapper">
+            <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <marker
+                  id="arr"
+                  markerWidth="8"
+                  markerHeight="8"
+                  refX="4"
+                  refY="4"
+                  orient="auto"
+                >
+                  <path d="M0,0 L8,4 L0,8 Z" fill="#4a7c59" />
+                </marker>
+              </defs>
+              <!-- Center -->
+              <circle
+                cx="150"
+                cy="150"
+                r="40"
+                fill="#d4e8da"
+                stroke="#4a7c59"
+                stroke-width="1.5"
+              />
+              <text
+                x="150"
+                y="146"
+                text-anchor="middle"
+                font-size="11"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Insecurity
+              </text>
+              <text
+                x="150"
+                y="161"
+                text-anchor="middle"
+                font-size="11"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                & Overthink
+              </text>
+              <!-- Nodes -->
+              <!-- Top -->
+              <ellipse
+                cx="150"
+                cy="42"
+                rx="52"
+                ry="22"
+                fill="#f0f7f2"
+                stroke="#4a7c59"
+                stroke-width="1.5"
+              />
+              <text
+                x="150"
+                y="46"
+                text-anchor="middle"
+                font-size="10"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Pemicu Eksternal
+              </text>
+              <text
+                x="150"
+                y="59"
+                text-anchor="middle"
+                font-size="9"
+                fill="#6b7355"
+                font-family="DM Sans"
+              >
+                (Nilai, Sosmed, dll)
+              </text>
+              <!-- Right -->
+              <ellipse
+                cx="258"
+                cy="150"
+                rx="38"
+                ry="22"
+                fill="#f5e0d4"
+                stroke="#c4704a"
+                stroke-width="1.5"
+              />
+              <text
+                x="258"
+                y="146"
+                text-anchor="middle"
+                font-size="10"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Perasaan
+              </text>
+              <text
+                x="258"
+                y="159"
+                text-anchor="middle"
+                font-size="10"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Tidak Cukup
+              </text>
+              <!-- Bottom -->
+              <ellipse
+                cx="150"
+                cy="258"
+                rx="52"
+                ry="22"
+                fill="#dde3f0"
+                stroke="#4a5c8a"
+                stroke-width="1.5"
+              />
+              <text
+                x="150"
+                y="254"
+                text-anchor="middle"
+                font-size="10"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Penghindaran
+              </text>
+              <text
+                x="150"
+                y="267"
+                text-anchor="middle"
+                font-size="9"
+                fill="#6b7355"
+                font-family="DM Sans"
+              >
+                & Isolasi Sosial
+              </text>
+              <!-- Left -->
+              <ellipse
+                cx="42"
+                cy="150"
+                rx="38"
+                ry="22"
+                fill="#f0f7f2"
+                stroke="#4a7c59"
+                stroke-width="1.5"
+              />
+              <text
+                x="42"
+                y="146"
+                text-anchor="middle"
+                font-size="10"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Loop
+              </text>
+              <text
+                x="42"
+                y="159"
+                text-anchor="middle"
+                font-size="10"
+                fill="#2d3426"
+                font-family="DM Sans"
+              >
+                Pikiran
+              </text>
+              <!-- Arrows -->
+              <path
+                d="M150,64 L150,108"
+                stroke="#4a7c59"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#arr)"
+              />
+              <path
+                d="M190,140 L221,150"
+                stroke="#c4704a"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#arr)"
+              />
+              <path
+                d="M218,166 L186,230"
+                stroke="#4a5c8a"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#arr)"
+              />
+              <path
+                d="M114,236 L80,170"
+                stroke="#4a5c8a"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#arr)"
+              />
+              <path
+                d="M80,134 L112,115"
+                stroke="#4a7c59"
+                stroke-width="1.5"
+                fill="none"
+                marker-end="url(#arr)"
+              />
+              <!-- Break label -->
+              <rect
+                x="118"
+                y="190"
+                width="64"
+                height="20"
+                rx="4"
+                fill="#4a7c59"
+              />
+              <text
+                x="150"
+                y="204"
+                text-anchor="middle"
+                font-size="9"
+                fill="white"
+                font-family="DM Sans"
+              >
+                ← Putus di sini
+              </text>
+            </svg>
+          </div>
+          <p
+            style="
+              font-size: 0.8rem;
+              color: var(--muted);
+              text-align: center;
+              margin-top: 1rem;
+            "
+          >
+            Siklus overthinking dan insecurity saling memperkuat satu sama lain
+          </p>
+        </div>
+
+        <div>
+          <div
+            style="
+              margin-bottom: 1.5rem;
+              font-size: 0.9rem;
+              color: var(--muted);
+              line-height: 1.8;
+            "
+          >
+            Insecurity adalah persepsi bahwa diri kita tidak cukup baik, tidak
+            layak, atau akan ditolak. Ini bukan fakta — ini adalah
+            <strong style="color: var(--dark)">narasi yang dipelajari</strong>,
+            dan bisa diubah.
+          </div>
+          <div class="steps-list">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <h4>Kenali Triggemu</h4>
+                <p>
+                  Situasi apa yang paling sering memicu overthinking? Nilai
+                  buruk? Interaksi sosial tertentu? Beri nama pada triggermu.
+                </p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <h4>Pisahkan Fakta dari Narasi</h4>
+                <p>
+                  "Aku gagal ujian" adalah fakta. "Aku tidak berguna dan tidak
+                  akan sukses" adalah narasi. Bedakan keduanya.
+                </p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <h4>Tantang Inner Critic</h4>
+                <p>
+                  Tanya: "Apakah aku akan berkata ini ke sahabatku?" Jika tidak,
+                  mengapa kamu berkata ini ke dirimu sendiri?
+                </p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <h4>Reframe sebagai Kekuatan</h4>
+                <p>
+                  Insecurity sering lahir dari kepedulian yang tinggi. Ubah "aku
+                  terlalu sensitif" menjadi "aku punya empati yang dalam."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STRATEGI -->
+    <section id="strategi">
+      <div class="strategi-header">
+        <div>
+          <div class="section-tag">Strategi Pengelolaan</div>
+          <h2 class="section-title">
+            Cara Mengelola<br />Overthinking Secara Efektif
+          </h2>
+        </div>
+        <p class="section-sub">
+          Berdasarkan pendekatan CBT, DBT, dan mindfulness yang terbukti secara
+          ilmiah untuk konteks mahasiswa Indonesia.
+        </p>
+      </div>
+
+      <div class="strategi-grid">
+        <div class="strategi-card featured">
+          <div class="strategi-num">01</div>
+          <div class="tag-pill">Paling Efektif</div>
+          <h3>Teknik Grounding 5-4-3-2-1</h3>
+          <p>
+            Membawa perhatian kembali ke momen saat ini menggunakan kelima
+            indera. Memutus loop pikiran secara cepat dan efektif.
+          </p>
+          <ul class="technique-list">
+            <li>5 hal yang bisa kamu LIHAT</li>
+            <li>4 hal yang bisa kamu SENTUH</li>
+            <li>3 hal yang bisa kamu DENGAR</li>
+            <li>2 hal yang bisa kamu CIUM</li>
+            <li>1 hal yang bisa kamu RASA</li>
+          </ul>
+        </div>
+
+        <div class="strategi-card">
+          <div class="strategi-num">02</div>
+          <div class="tag-pill">Kognitif</div>
+          <h3>Cognitive Defusion (ACT)</h3>
+          <p>
+            Belajar memandang pikiran sebagai pikiran — bukan kebenaran absolut.
+            Menciptakan jarak psikologis dari konten pikiran.
+          </p>
+          <ul class="technique-list">
+            <li>Katakan "Aku sedang punya pikiran bahwa..."</li>
+            <li>Bayangkan pikiran sebagai awan yang lewat</li>
+            <li>Beri nama karakternya: "Si Pengkritik lagi berbicara"</li>
+          </ul>
+        </div>
+
+        <div class="strategi-card">
+          <div class="strategi-num">03</div>
+          <div class="tag-pill">Perilaku</div>
+          <h3>Jadwal Khawatir (Worry Time)</h3>
+          <p>
+            Sisihkan 15-20 menit per hari khusus untuk "khawatir". Di luar waktu
+            itu, postpone semua kekhawatiran ke sesi berikutnya.
+          </p>
+          <ul class="technique-list">
+            <li>Pilih waktu dan tempat yang konsisten</li>
+            <li>Tulis semua kekhawatiran selama sesi</li>
+            <li>Identifikasi yang bisa dikontrol vs tidak</li>
+          </ul>
+        </div>
+
+        <div class="strategi-card">
+          <div class="strategi-num">04</div>
+          <div class="tag-pill">Mindfulness</div>
+          <h3>Pernapasan Terkontrol</h3>
+          <p>
+            Mengaktifkan sistem saraf parasimpatik untuk menenangkan respons
+            stres. Teknik 4-7-8 terbukti mengurangi kortisol dalam 5 menit.
+          </p>
+          <ul class="technique-list">
+            <li>Hirup selama 4 hitungan</li>
+            <li>Tahan selama 7 hitungan</li>
+            <li>Hembuskan selama 8 hitungan</li>
+          </ul>
+        </div>
+
+        <div class="strategi-card">
+          <div class="strategi-num">05</div>
+          <div class="tag-pill">Jurnal</div>
+          <h3>Brain Dump & Journaling</h3>
+          <p>
+            Mengeluarkan semua pikiran ke kertas untuk "mengosongkan" RAM otak.
+            Membantu melihat pola dan mendapat perspektif baru.
+          </p>
+          <ul class="technique-list">
+            <li>Tulis 3 halaman bebas setiap pagi</li>
+            <li>Gunakan prompt: "Aku khawatir tentang... karena..."</li>
+            <li>Review mingguan untuk temukan pola</li>
+          </ul>
+        </div>
+
+        <div class="strategi-card">
+          <div class="strategi-num">06</div>
+          <div class="tag-pill">Sosial</div>
+          <h3>Dukungan Peer & Komunitas</h3>
+          <p>
+            Berbagi dengan teman terpercaya atau kelompok dukungan sebaya.
+            Normalisasi perjuangan mental health di kalangan mahasiswa.
+          </p>
+          <ul class="technique-list">
+            <li>Bentuk atau bergabung study circle yang aman</li>
+            <li>Praktikkan active listening tanpa judgment</li>
+            <li>Ciptakan ritual check-in emosional rutin</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- KOMUNITAS -->
+    <section id="komunitas" class="komunitas-section">
+      <div class="komunitas-inner">
+        <div>
+          <div class="section-tag">Transformasi</div>
+          <h2 class="section-title">
+            Dari Insecurity<br />Menjadi Penggerak Komunitas
+          </h2>
+          <p class="section-sub" style="margin-bottom: 0">
+            Kesembuhan sejati tidak terjadi dalam isolasi. Ketika kita mengelola
+            overthinking dengan baik, kita memiliki kapasitas untuk menjadi
+            pemimpin komunitas yang empatik dan autentik.
+          </p>
+          <div class="komunitas-steps">
+            <div class="kom-step">
+              <div class="kom-icon-wrap">
+                <div class="kom-icon">🪴</div>
+                <div class="kom-line"></div>
+              </div>
+              <div class="kom-text">
+                <h4>Bangun Self-Compassion Dulu</h4>
+                <p>
+                  Kamu tidak bisa menuangkan dari gelas yang kosong. Rawat
+                  dirimu terlebih dahulu — itu bukan egois, itu perlu.
+                </p>
+              </div>
+            </div>
+            <div class="kom-step">
+              <div class="kom-icon-wrap">
+                <div class="kom-icon">🔭</div>
+                <div class="kom-line"></div>
+              </div>
+              <div class="kom-text">
+                <h4>Ubah Perspektif: Kelemahan = Data</h4>
+                <p>
+                  Setiap insecurity mengungkap nilai yang kamu pegang tinggi.
+                  Overthinking tentang performa = kamu peduli kualitas.
+                </p>
+              </div>
+            </div>
+            <div class="kom-step">
+              <div class="kom-icon-wrap">
+                <div class="kom-icon">🤝</div>
+                <div class="kom-line"></div>
+              </div>
+              <div class="kom-text">
+                <h4>Jadikan Pengalaman sebagai Empati</h4>
+                <p>
+                  Mereka yang pernah berjuang paling tahu cara mendukung.
+                  Berbagi perjuanganmu bisa jadi mercusuar bagi yang lain.
+                </p>
+              </div>
+            </div>
+            <div class="kom-step">
+              <div class="kom-icon-wrap">
+                <div class="kom-icon">🌱</div>
+              </div>
+              <div class="kom-text">
+                <h4>Bangun Ruang Aman di Komunitas</h4>
+                <p>
+                  Ciptakan lingkungan di mana orang boleh tidak baik-baik saja —
+                  di kelas, di organisasi, di kos-kosan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="quote-card">
+            <blockquote>
+              "Orang yang paling empatik dalam memimpin komunitas bukan yang
+              tidak pernah berjuang — melainkan yang telah belajar berjalan
+              bersama perjuangan mereka."
+            </blockquote>
+            <div class="quote-attribution">Brené Brown, Daring Greatly</div>
+          </div>
+          <div
+            style="
+              margin-top: 1.5rem;
+              background: white;
+              border-radius: var(--radius);
+              padding: 1.5rem;
+              border: 1px solid var(--line);
+            "
+          >
+            <div
+              style="
+                font-size: 0.75rem;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: var(--muted);
+                margin-bottom: 1rem;
+              "
+            >
+              Model Komunitas Positif
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem">
+              <div style="display: flex; align-items: center; gap: 0.75rem">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--sage);
+                    flex-shrink: 0;
+                  "
+                ></div>
+                <span style="font-size: 0.875rem; color: var(--text)"
+                  >Peer Support Circle mingguan</span
+                >
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--clay);
+                    flex-shrink: 0;
+                  "
+                ></div>
+                <span style="font-size: 0.875rem; color: var(--text)"
+                  >Mental Health Literacy Workshop</span
+                >
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--indigo);
+                    flex-shrink: 0;
+                  "
+                ></div>
+                <span style="font-size: 0.875rem; color: var(--text)"
+                  >Buddy System antar angkatan</span
+                >
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--sage);
+                    flex-shrink: 0;
+                  "
+                ></div>
+                <span style="font-size: 0.875rem; color: var(--text)"
+                  >Safe Space declaration di organisasi</span
+                >
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--clay);
+                    flex-shrink: 0;
+                  "
+                ></div>
+                <span style="font-size: 0.875rem; color: var(--text)"
+                  >Normalisasi konseling kampus</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS INTERAKTIF -->
+    <section id="tools">
+      <div class="section-tag">Tools Praktis</div>
+      <h2 class="section-title">Praktikkan Sekarang</h2>
+      <p class="section-sub">
+        Latihan berbasis bukti yang bisa kamu mulai dalam hitungan menit. Tidak
+        ada data yang disimpan — semuanya privat di browser-mu.
+      </p>
+
+      <div class="tools-grid">
+        <div
+          class="tool-card"
+          onclick="
+            document
+              .getElementById('quiz')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          <div class="tool-top sage-bg">🧩</div>
+          <div class="tool-body">
+            <h4>Cek Level Overthinking</h4>
+            <p>
+              Kuis singkat 5 pertanyaan untuk mengidentifikasi pola
+              overthinkingmu dan mendapat rekomendasi personal.
+            </p>
+            <div class="tool-cta">Mulai Kuis</div>
+          </div>
+        </div>
+        <div
+          class="tool-card"
+          onclick="
+            document
+              .getElementById('napas')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          <div class="tool-top clay-bg">🌬️</div>
+          <div class="tool-body">
+            <h4>Panduan Napas 4-7-8</h4>
+            <p>
+              Animasi pernapasan interaktif untuk menenangkan sistem saraf dalam
+              5 menit. Cocok saat anxiety meningkat.
+            </p>
+            <div class="tool-cta">Mulai Bernapas</div>
+          </div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-top indigo-bg">📓</div>
+          <div class="tool-body">
+            <h4>Prompt Journaling</h4>
+            <p>
+              7 pertanyaan reflektif untuk membantu mengurai pola overthinking
+              dan membangun perspektif yang lebih sehat.
+            </p>
+            <div class="tool-cta" onclick="showJournaling()">Lihat Prompt</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="quiz-section">
+      <div class="section-tag">Self-Assessment</div>
+      <h2 class="section-title" style="text-align: center">
+        Cek Level Overthinkingmu
+      </h2>
+      <p class="section-sub" style="text-align: center; margin: 0 auto">
+        Jawab 5 pertanyaan ini dengan jujur. Hasilnya bersifat edukatif dan
+        tidak tersimpan.
+      </p>
+
+      <div class="quiz-container">
+        <div class="quiz-header">
+          <h3>Asesmen Pola Pikir</h3>
+          <p>
+            Pilih jawaban yang paling menggambarkan pengalamanmu dalam 2 minggu
+            terakhir
+          </p>
+          <div class="quiz-progress">
+            <div
+              class="quiz-progress-fill"
+              id="qProgress"
+              style="width: 0%"
+            ></div>
+          </div>
+        </div>
+
+        <div class="quiz-body" id="quizBody">
+          <div class="quiz-q-num" id="qNum">Pertanyaan 1 dari 5</div>
+          <div class="quiz-question" id="qText"></div>
+          <div class="quiz-options" id="qOptions"></div>
+        </div>
+
+        <div class="quiz-result" id="quizResult">
+          <div class="result-emoji" id="rEmoji"></div>
+          <div class="result-title" id="rTitle"></div>
+          <div class="result-desc" id="rDesc"></div>
+          <div class="result-tips" id="rTips"></div>
+          <button class="btn-restart" onclick="restartQuiz()">
+            Ulangi Kuis
+          </button>
+        </div>
+
+        <div class="quiz-footer">
+          <div class="quiz-counter" id="qCounter">0 / 5 dijawab</div>
+          <button class="btn-next" id="btnNext" onclick="nextQuestion()">
+            Lanjut →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NAPAS -->
+    <section id="napas" style="background: var(--sage-pale)">
+      <div class="section-tag">Latihan Mindfulness</div>
+      <h2 class="section-title" style="text-align: center">
+        Latihan Napas 4-7-8
+      </h2>
+      <p class="section-sub" style="text-align: center; margin: 0 auto 0">
+        Teknik pernapasan untuk aktivasi sistem parasimpatik. Lakukan 3-4
+        siklus.
+      </p>
+
+      <div class="breathing-container">
+        <div class="breathing-circle-wrap" onclick="startBreathing()">
+          <div class="breathing-circle" id="breathCircle">
+            Ketuk untuk mulai
+          </div>
+        </div>
+        <div class="breathing-label">
+          Status: <span id="breathLabel">Siap</span>
+        </div>
+        <div
+          style="
+            margin-top: 1.5rem;
+            background: white;
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            border: 1px solid var(--line);
+          "
+        >
+          <div style="font-size: 0.8rem; color: var(--muted); text-align: left">
+            <strong style="color: var(--dark)">Cara kerja:</strong> Menghirup 4
+            hitungan mengisi paru-paru. Menahan 7 hitungan memungkinkan oksigen
+            terserap. Menghembuskan perlahan 8 hitungan mengaktifkan respons
+            relaksasi vagal.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNALING MODAL -->
+    <div
+      id="journalingModal"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 200;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+      "
+    >
+      <div
+        style="
+          background: white;
+          border-radius: var(--radius);
+          max-width: 560px;
+          width: 100%;
+          padding: 2rem;
+          max-height: 80vh;
+          overflow-y: auto;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+          "
+        >
+          <h3
+            style="
+              font-family: &quot;Playfair Display&quot;, serif;
+              font-size: 1.25rem;
+            "
+          >
+            7 Prompt Journaling
+          </h3>
+          <button
+            onclick="
+              document.getElementById('journalingModal').style.display = 'none'
+            "
+            style="
+              background: none;
+              border: none;
+              font-size: 1.25rem;
+              cursor: pointer;
+              color: var(--muted);
+            "
+          >
+            ✕
+          </button>
+        </div>
+        <div
+          style="display: flex; flex-direction: column; gap: 1rem"
+          id="journalingPrompts"
+        ></div>
+      </div>
+    </div>
+
+    <!-- RESOURCES -->
+    <section>
+      <div class="section-tag">Bantuan Profesional</div>
+      <h2 class="section-title">Sumber Daya & Bantuan</h2>
+      <p class="section-sub">
+        Mengelola overthinking lebih efektif dengan dukungan yang tepat. Jangan
+        ragu mencari bantuan.
+      </p>
+
+      <div class="resources-grid">
+        <div class="resource-card">
+          <div class="resource-icon" style="background: #ffe4e1">🆘</div>
+          <div class="resource-text">
+            <h4>Into The Light Indonesia</h4>
+            <p>
+              Layanan konseling krisis dan pencegahan bunuh diri. Tersedia untuk
+              pelajar dan mahasiswa seluruh Indonesia.
+            </p>
+            <span
+              class="resource-link"
+              onclick="alert('Hubungi: 119 ext 8 atau www.intothelightid.org')"
+              >119 ext 8 | intothelightid.org</span
+            >
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon" style="background: var(--sage-light)">
+            🏥
+          </div>
+          <div class="resource-text">
+            <h4>Pusat Layanan Psikologi Kampus</h4>
+            <p>
+              Hampir semua universitas di Indonesia memiliki unit konseling
+              mahasiswa. Biasanya gratis dan rahasia.
+            </p>
+            <span
+              class="resource-link"
+              onclick="
+                alert('Cari di website kampusmu: Unit Konseling / BK Mahasiswa')
+              "
+              >Temukan di kampusmu</span
+            >
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon" style="background: var(--indigo-light)">
+            📱
+          </div>
+          <div class="resource-text">
+            <h4>Aplikasi Kesehatan Mental</h4>
+            <p>
+              Riliv, Calm, Headspace — tersedia dalam bahasa Indonesia dengan
+              fitur meditasi dan journaling terpandu.
+            </p>
+            <span
+              class="resource-link"
+              onclick="alert('Tersedia di App Store & Google Play')"
+              >Cari di App Store</span
+            >
+          </div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon" style="background: var(--clay-light)">
+            📖
+          </div>
+          <div class="resource-text">
+            <h4>Bacaan Lanjutan</h4>
+            <p>
+              The Body Keeps the Score (van der Kolk), Feeling Good (Burns),
+              Self-Compassion (Neff) — tersedia di perpustakaan digital.
+            </p>
+            <span
+              class="resource-link"
+              onclick="
+                alert(
+                  'Tersedia di iJakarta, Gramedia Digital, dan perpustakaan kampus',
+                )
+              "
+              >Akses buku</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Ruang Sahabat</div>
+          <p class="footer-tagline">
+            Platform literasi kesehatan mental berbasis bukti untuk mahasiswa
+            Indonesia. Konten ini bersifat edukatif dan tidak menggantikan
+            layanan profesional.
+          </p>
+          <div
+            style="
+              margin-top: 1.5rem;
+              padding: 1rem;
+              background: rgba(196, 112, 74, 0.15);
+              border-radius: var(--radius-sm);
+              border-left: 3px solid #c4704a;
+            "
+          >
+            <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.7)">
+              🚨 Dalam kondisi darurat mental hubungi:
+              <strong style="color: #e8a88a">119 ext 8</strong>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Konten</h5>
+          <ul>
+            <li>
+              <a
+                href="#tentang"
+                style="color: rgba(255, 255, 255, 0.6); text-decoration: none"
+                >Apa itu Overthinking</a
+              >
+            </li>
+            <li>
+              <a
+                href="#dampak"
+                style="color: rgba(255, 255, 255, 0.6); text-decoration: none"
+                >Analisis Dampak</a
+              >
+            </li>
+            <li>
+              <a
+                href="#strategi"
+                style="color: rgba(255, 255, 255, 0.6); text-decoration: none"
+                >Strategi Pengelolaan</a
+              >
+            </li>
+            <li>
+              <a
+                href="#komunitas"
+                style="color: rgba(255, 255, 255, 0.6); text-decoration: none"
+                >Membangun Komunitas</a
+              >
+            </li>
+            <li>
+              <a
+                href="#tools"
+                style="color: rgba(255, 255, 255, 0.6); text-decoration: none"
+                >Tools Interaktif</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Referensi Ilmiah</h5>
+          <ul>
+            <li style="color: rgba(255, 255, 255, 0.5); font-size: 0.8rem">
+              Nolen-Hoeksema, S. (1991). Responses to depression
+            </li>
+            <li style="color: rgba(255, 255, 255, 0.5); font-size: 0.8rem">
+              Neff, K.D. (2003). Self-compassion scale
+            </li>
+            <li style="color: rgba(255, 255, 255, 0.5); font-size: 0.8rem">
+              Hayes, S.C. (2004). ACT Framework
+            </li>
+            <li style="color: rgba(255, 255, 255, 0.5); font-size: 0.8rem">
+              Linehan, M.M. (1993). DBT Manual
+            </li>
+            <li style="color: rgba(255, 255, 255, 0.5); font-size: 0.8rem">
+              WHO Mental Health Report (2022)
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Ruang Sahabat · Untuk keperluan edukasi mahasiswa</span>
+        <span style="font-size: 0.75rem; opacity: 0.5"
+          >Dibuat oleh Kelompok 1 untuk kesehatan mental mahasiswa
+          Indonesia</span
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
