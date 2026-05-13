@@ -265,6 +265,10 @@ nav {
   color: var(--muted);
   margin-top: 0.25rem;
 }
+.card-desc-2 {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
 .hero-cards-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
